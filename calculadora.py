@@ -10,21 +10,21 @@ def somar():
     result.config(text=f'Total:%d'% (Resultado))
 
 def subtrair():
-    n1 = float(entry1.get())
-    n2 = float(entry2.get())
-    subtracao = n1 - n2
+    number1 = float(entry1.get())
+    number2 = float(entry2.get())
+    subtracao = number1 - number2
     result.config(text=f'Total:%d'% (subtracao))
 
 def multip():
-    num1 = float(entry1.get())
-    num2 = float(entry2.get())
-    multiplicacao = num1 * num2
+    number1 = float(entry1.get())
+    number2 = float(entry2.get())
+    multiplicacao = number1 * number2
     result.config(text=f'Total:%d'% (multiplicacao))
 
 def div():
-    nu1 = float(entry1.get())
-    nu2 = float(entry1.get())
-    divisao = nu1 / nu2
+    number1 = float(entry1.get())
+    number2 = float(entry1.get())
+    divisao = number1 / number2
     result.config(text=f'Total:%d'% (divisao))
 
 root = tk.Tk()
